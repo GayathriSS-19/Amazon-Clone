@@ -196,3 +196,39 @@ a{
     background-repeat: no-repeat;
     margin: 1rem 0rem;
 }
+
+/*footer*/
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+}
+
+.foot-panel2{
+    background-color: #222f38;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 ul{
+    margin-top: 30px;
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+.foot-panel2 ul li{
+    margin: 10px;
+    font-size: 0.85rem;
+}
+.foot-panel2 ul li:first-child{
+    font-weight: 700;
+}
